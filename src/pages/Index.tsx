@@ -11,7 +11,7 @@ const Index = () => {
       }}
     >
       {/* Dark overlay for readability */}
-      <div className="absolute inset-0" style={{ background: "hsla(150, 35%, 8%, 0.55)" }} />
+      <div className="absolute inset-0" style={{ background: "hsla(150, 35%, 8%, 0.88)" }} />
       {/* Subtle gold shimmer particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(12)].map((_, i) => (
