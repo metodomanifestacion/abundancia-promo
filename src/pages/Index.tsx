@@ -90,8 +90,11 @@ const Index = () => {
 
         {/* CTA Button */}
         <div>
-          <button
-            className="w-full max-w-xs mx-auto block text-base sm:text-lg font-bold py-4 px-8 rounded-xl transition-all duration-300 cursor-pointer active:scale-95"
+        <a
+            href="https://pay.hotmart.com/O105272641O?checkoutMode=10"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full max-w-xs mx-auto block text-base sm:text-lg font-bold py-4 px-8 rounded-xl transition-all duration-300 cursor-pointer active:scale-95 text-center no-underline"
             style={{
               background: "var(--gradient-cta)",
               color: "hsl(150 40% 10%)",
@@ -109,7 +112,7 @@ const Index = () => {
             }}
           >
             QUIERO ACCEDER AHORA
-          </button>
+          </a>
         </div>
 
         {/* Trust */}
