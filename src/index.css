@@ -6,16 +6,16 @@
 
 @layer base {
   :root {
-    --background: 210 40% 96%;
-    --foreground: 220 25% 20%;
-    --primary: 210 70% 50%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 210 30% 90%;
-    --secondary-foreground: 220 25% 20%;
-    --muted: 210 20% 85%;
-    --muted-foreground: 220 15% 45%;
-    --accent: 38 92% 55%;
-    --accent-foreground: 0 0% 100%;
+    --background: 145 30% 95%;
+    --foreground: 150 40% 10%;
+    --primary: 45 85% 50%;
+    --primary-foreground: 150 40% 10%;
+    --secondary: 150 25% 88%;
+    --secondary-foreground: 150 40% 10%;
+    --muted: 150 15% 82%;
+    --muted-foreground: 150 20% 35%;
+    --accent: 45 90% 52%;
+    --accent-foreground: 150 40% 10%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
     --border: 210 20% 85%;
@@ -35,11 +35,12 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    --gradient-sky: linear-gradient(160deg, hsl(200 60% 92%), hsl(210 50% 85%), hsl(220 40% 80%));
-    --gradient-cta: linear-gradient(135deg, hsl(38 92% 55%), hsl(28 95% 50%));
-    --gradient-cta-hover: linear-gradient(135deg, hsl(38 95% 50%), hsl(28 98% 45%));
-    --shadow-cta: 0 8px 30px -4px hsl(38 92% 55% / 0.5);
-    --shadow-cta-hover: 0 12px 40px -4px hsl(38 92% 55% / 0.65);
+    --gradient-sky: linear-gradient(160deg, hsl(150 30% 15%), hsl(155 35% 10%), hsl(145 25% 8%));
+    --gradient-cta: linear-gradient(135deg, hsl(45 90% 52%), hsl(38 85% 45%));
+    --gradient-cta-hover: linear-gradient(135deg, hsl(45 95% 58%), hsl(38 90% 50%));
+    --shadow-cta: 0 8px 30px -4px hsl(45 90% 52% / 0.5);
+    --shadow-cta-hover: 0 12px 40px -4px hsl(45 90% 52% / 0.65);
+    --gold-shimmer: hsl(45 85% 60%);
   }
 }
 
