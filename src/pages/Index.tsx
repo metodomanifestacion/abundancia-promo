@@ -1,9 +1,17 @@
+import moneyBg from "@/assets/money-bg.jpg";
+
 const Index = () => {
   return (
     <div
       className="fixed inset-0 flex items-center justify-center px-5 py-6 overflow-hidden"
-      style={{ background: "var(--gradient-sky)" }}
+      style={{
+        backgroundImage: `url(${moneyBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0" style={{ background: "hsla(150, 35%, 8%, 0.75)" }} />
       {/* Subtle gold shimmer particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(12)].map((_, i) => (
