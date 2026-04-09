@@ -70,7 +70,7 @@ const Index = () => {
             className="text-4xl sm:text-5xl font-extrabold"
             style={{ color: "var(--gold-shimmer)" }}
           >
-            2,99€
+            3,99€
           </p>
           <p
             className="text-xs font-bold tracking-widest uppercase"
