@@ -38,8 +38,8 @@ const Index = () => {
           className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-tight tracking-tight"
           style={{ color: "hsl(0 0% 95%)" }}
         >
-          El "<span style={{ color: "var(--gold-shimmer)" }}>Click</span>" Mental
-          <br />que Desbloquea tu Economía
+          Los Secretos de la Abundancia
+          <br />en un Solo Lugar
         </h1>
 
         {/* Subtitle */}
@@ -47,9 +47,9 @@ const Index = () => {
           className="text-base sm:text-lg font-medium max-w-md mx-auto leading-relaxed"
           style={{ color: "hsl(145 20% 65%)" }}
         >
-          Si quieres atraer abundancia, no puedes vibrar en escasez. Descubre
-          el método exacto para reprogramar tu mente y empezar a ver
-          oportunidades donde hoy solo ves deudas.
+          He reunido los métodos exactos de los grandes maestros de la
+          metafísica para atraer dinero y suerte. No pierdas tiempo buscando;
+          aquí tienes el camino probado.
         </p>
 
         {/* Description */}
@@ -57,8 +57,8 @@ const Index = () => {
           className="text-sm sm:text-base max-w-md mx-auto leading-relaxed"
           style={{ color: "hsl(145 15% 55%)" }}
         >
-          He resumido en esta guía de 54 páginas el cambio de mentalidad que
-          transformó mis finanzas. Sin rodeos, directo a la práctica.
+          54 páginas con las técnicas que realmente funcionan para
+          reprogramar tu economía y cambiar tu suerte hoy mismo.
         </p>
 
         {/* Pricing */}
