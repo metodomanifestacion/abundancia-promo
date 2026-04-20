@@ -38,18 +38,18 @@ const Index = () => {
           className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-tight tracking-tight"
           style={{ color: "hsl(0 0% 95%)" }}
         >
-          Esto hizo{" "}
-          <span style={{ color: "var(--gold-shimmer)" }}>CLICK</span> en mi
-          mente…
-          <br />y mi economía empezó a cambiar
+          El "<span style={{ color: "var(--gold-shimmer)" }}>Click</span>" Mental
+          <br />que Desbloquea tu Economía
         </h1>
 
         {/* Subtitle */}
         <p
-          className="text-base sm:text-lg font-medium"
+          className="text-base sm:text-lg font-medium max-w-md mx-auto leading-relaxed"
           style={{ color: "hsl(145 20% 65%)" }}
         >
-          Si quieres atraer dinero, no puedes actuar desde la escasez.
+          Si quieres atraer abundancia, no puedes vibrar en escasez. Descubre
+          el método exacto para reprogramar tu mente y empezar a ver
+          oportunidades donde hoy solo ves deudas.
         </p>
 
         {/* Description */}
