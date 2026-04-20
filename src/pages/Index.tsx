@@ -71,7 +71,7 @@ const Index = () => {
               3,99€
             </span>
             <span className="text-sm line-through" style={{ color: "hsl(145 15% 45%)" }}>
-              6,99€
+              15,99€
             </span>
           </div>
           <p className="text-sm" style={{ color: "hsl(145 20% 65%)" }}>
