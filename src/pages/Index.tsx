@@ -57,40 +57,34 @@ const Index = () => {
           className="text-sm sm:text-base max-w-md mx-auto leading-relaxed"
           style={{ color: "hsl(145 15% 55%)" }}
         >
-          En esta guía te explico el cambio exacto que me ayudó a ver el dinero
-          de otra forma y empezar a atraerlo.
+          He resumido en esta guía de 54 páginas el cambio de mentalidad que
+          transformó mis finanzas. Sin rodeos, directo a la práctica.
         </p>
 
         {/* Pricing */}
-        <div className="space-y-1">
-          <p className="text-sm line-through" style={{ color: "hsl(145 15% 45%)" }}>
-            6,99€
-          </p>
-          <p
-            className="text-4xl sm:text-5xl font-extrabold"
-            style={{ color: "var(--gold-shimmer)" }}
-          >
-            3,99€
-          </p>
-          <p
-            className="text-xs font-bold tracking-widest uppercase"
-            style={{ color: "var(--gold-shimmer)" }}
-          >
-            Solo por tiempo limitado
+        <div className="flex flex-col items-center gap-2">
+          <div className="flex items-baseline gap-2">
+            <span
+              className="text-4xl sm:text-5xl font-extrabold"
+              style={{ color: "var(--gold-shimmer)" }}
+            >
+              3,99€
+            </span>
+            <span className="text-sm line-through" style={{ color: "hsl(145 15% 45%)" }}>
+              6,99€
+            </span>
+          </div>
+          <p className="text-sm" style={{ color: "hsl(145 20% 65%)" }}>
+            ⚠️ <span className="font-semibold" style={{ color: "var(--gold-shimmer)" }}>
+              Oferta por tiempo limitado.
+            </span>{" "}
+            Esta promoción puede desaparecer hoy mismo.
           </p>
         </div>
 
-        {/* Urgency */}
-        <p
-          className="text-xs sm:text-sm italic"
-          style={{ color: "hsl(145 15% 50%)" }}
-        >
-          Esta promoción puede desaparecer en cualquier momento.
-        </p>
-
         {/* CTA Button */}
-        <div>
-        <a
+        <div className="space-y-2">
+          <a
             href="https://pay.hotmart.com/O105272641O?checkoutMode=10"
             target="_blank"
             rel="noopener noreferrer"
@@ -111,8 +105,11 @@ const Index = () => {
               e.currentTarget.style.transform = "translateY(0)";
             }}
           >
-            QUIERO ACCEDER AHORA
+            ¡SÍ, QUIERO ACTIVAR MI ABUNDANCIA!
           </a>
+          <p className="text-xs" style={{ color: "hsl(145 15% 50%)" }}>
+            (Acceso inmediato tras el pago)
+          </p>
         </div>
 
         {/* Trust */}
