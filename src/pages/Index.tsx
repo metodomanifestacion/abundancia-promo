@@ -1,4 +1,5 @@
 import moneyBg from "@/assets/money-bg.jpg";
+import { trackMetaEvent } from "@/lib/metaPixel";
 
 const Index = () => {
   return (
@@ -88,6 +89,7 @@ const Index = () => {
             href="https://pay.hotmart.com/O105272641O?checkoutMode=10"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackMetaEvent("track", "InitiateCheckout")}
             className="w-full max-w-xs mx-auto block text-base sm:text-lg font-bold py-4 px-8 rounded-xl transition-all duration-300 cursor-pointer active:scale-95 text-center no-underline"
             style={{
               background: "var(--gradient-cta)",
