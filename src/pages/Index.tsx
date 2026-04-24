@@ -39,8 +39,7 @@ const Index = () => {
           className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-tight tracking-tight"
           style={{ color: "hsl(0 0% 95%)" }}
         >
-          Los Secretos de la Abundancia
-          <br />en un Solo Lugar
+          ¿Por qué el dinero nunca llega, aunque lo visualizas todos los días?
         </h1>
 
         {/* Subtitle */}
@@ -48,18 +47,16 @@ const Index = () => {
           className="text-base sm:text-lg font-medium max-w-md mx-auto leading-relaxed"
           style={{ color: "hsl(145 20% 65%)" }}
         >
-          He reunido los métodos exactos de los grandes maestros de la
-          metafísica para atraer dinero y suerte. No pierdas tiempo buscando;
-          aquí tienes el camino probado.
+          Descubre las técnicas exactas de Neville Goddard y Joseph Murphy que sí funcionan — y por qué lo que has intentado hasta ahora no estaba completo. 54 páginas. Resultado desde el primer día.
         </p>
 
-        {/* Description */}
+        {/* Description - removed as content merged into subtitle */}
+        {/* Trust */}
         <p
-          className="text-sm sm:text-base max-w-md mx-auto leading-relaxed"
-          style={{ color: "hsl(145 15% 55%)" }}
+          className="text-xs sm:text-sm tracking-wide"
+          style={{ color: "hsl(145 15% 50%)" }}
         >
-          54 páginas con las técnicas que realmente funcionan para
-          reprogramar tu economía y cambiar tu suerte hoy mismo.
+          Acceso inmediato · Lectura rápida · Método sencillo
         </p>
 
         {/* Pricing */}
