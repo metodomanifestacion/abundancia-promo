@@ -1,7 +1,7 @@
 import moneyBg from "@/assets/money-bg.jpg";
 import amseLogo from "@/assets/amse-pro-logo.png";
 import { trackMetaEvent } from "@/lib/metaPixel";
-import { Sparkles, BookOpen, Zap, Lock, Download, Star, Users, TrendingUp, Mail, AlertTriangle, ArrowRight } from "lucide-react";
+import { Sparkles, BookOpen, Zap, Lock, Download, Star, Users, TrendingUp, Mail, AlertTriangle, ArrowRight, Heart } from "lucide-react";
 
 const Index = () => {
   return (
@@ -55,7 +55,10 @@ const Index = () => {
 
         {/* Body */}
         <div className="space-y-3 max-w-md mx-auto text-left sm:text-center text-sm sm:text-base leading-relaxed" style={{ color: "hsl(145 18% 72%)" }}>
-          <p>Sé cómo se siente: visualizas, afirmas, confías... y al abrir la cuenta bancaria, nada cambia. Esa sensación de que algo falla, pero no sabes qué.</p>
+          <p>
+            <Heart className="inline mr-1 -mt-1" size={16} style={{ color: "var(--gold-shimmer)" }} />
+            Sé cómo se siente: visualizas, afirmas, confías... y al abrir la cuenta bancaria, nada cambia. Esa sensación de que algo falla, pero no sabes qué.
+          </p>
           <p>
             <BookOpen className="inline mr-1 -mt-1" size={16} style={{ color: "var(--gold-shimmer)" }} />
             Este ebook no es más de lo mismo, son <span className="font-semibold" style={{ color: "var(--gold-shimmer)" }}>54 páginas</span> con las técnicas exactas y probadas de varios metafísicos como Neville Goddard, Joseph Murphy, entre otros — incluyendo los pasos que casi nadie enseña y que son precisamente los que hacen que todo funcione. <Zap className="inline -mt-1" size={16} style={{ color: "var(--gold-shimmer)" }} /> Lo lees hoy, lo aplicas hoy.
