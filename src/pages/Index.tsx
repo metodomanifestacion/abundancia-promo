@@ -43,7 +43,7 @@ const Index = () => {
           75% { transform: translate(20px, -25px); opacity: 0.8; }
         }
       `}</style>
-      <div className="relative w-full max-w-lg text-center space-y-3 sm:space-y-4">
+      <div className="relative w-full max-w-2xl text-center space-y-3 sm:space-y-4">
         {/* Headline */}
         <h1
           className="text-xl sm:text-2xl md:text-3xl font-extrabold leading-tight tracking-tight flex items-start justify-center gap-2"
