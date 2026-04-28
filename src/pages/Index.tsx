@@ -1,10 +1,11 @@
 import moneyBg from "@/assets/money-bg.jpg";
+import amseLogo from "@/assets/amse-pro-logo.png";
 import { trackMetaEvent } from "@/lib/metaPixel";
 
 const Index = () => {
   return (
     <div
-      className="fixed inset-0 flex items-center justify-center px-5 py-6 overflow-hidden"
+      className="min-h-screen flex items-center justify-center px-5 py-6 relative"
       style={{
         backgroundImage: `url(${moneyBg})`,
         backgroundSize: "cover",
@@ -118,6 +119,29 @@ const Index = () => {
         >
           Acceso inmediato · Lectura rápida · Método sencillo
         </p>
+
+        {/* Footer with logo and credits */}
+        <div className="pt-6 mt-6 border-t flex flex-col items-center gap-2" style={{ borderColor: "hsl(145 20% 25% / 0.4)" }}>
+          <img
+            src={amseLogo}
+            alt="AMSE PRO - Evolución sin límites"
+            className="w-24 h-auto rounded-lg"
+            loading="lazy"
+          />
+          <p className="text-xs" style={{ color: "hsl(145 15% 60%)" }}>
+            Creado por Angela Sarmiento, fundadora de Amse Pro
+          </p>
+          <a
+            href="mailto:hola@amsepro.com"
+            className="text-xs font-medium hover:underline"
+            style={{ color: "var(--gold-shimmer)" }}
+          >
+            hola@amsepro.com
+          </a>
+          <p className="text-xs italic" style={{ color: "hsl(145 15% 55%)" }}>
+            Estamos aquí para acompañarte en tu transformación
+          </p>
+        </div>
       </div>
     </div>
   );
