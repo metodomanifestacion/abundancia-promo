@@ -1,6 +1,7 @@
 import moneyBg from "@/assets/money-bg.jpg";
 import amseLogo from "@/assets/amse-pro-logo.png";
 import { trackMetaEvent } from "@/lib/metaPixel";
+import { Sparkles, BookOpen, Zap, Lock, Download, Star, Users, TrendingUp, Mail, AlertTriangle, ArrowRight } from "lucide-react";
 
 const Index = () => {
   return (
