@@ -5,7 +5,7 @@ import { trackMetaEvent } from "@/lib/metaPixel";
 const Index = () => {
   return (
     <div
-      className="fixed inset-0 flex items-center justify-center px-5 py-6 overflow-hidden"
+      className="min-h-screen flex items-center justify-center px-5 py-6 relative"
       style={{
         backgroundImage: `url(${moneyBg})`,
         backgroundSize: "cover",
