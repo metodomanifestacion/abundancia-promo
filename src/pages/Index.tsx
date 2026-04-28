@@ -81,6 +81,22 @@ const Index = () => {
           </p>
         </div>
 
+        {/* Social proof stats */}
+        <div className="grid grid-cols-3 gap-2 sm:gap-3 py-3 px-2 rounded-xl" style={{ background: "hsla(150, 30%, 12%, 0.6)" }}>
+          <div className="flex flex-col items-center text-center">
+            <span className="text-base sm:text-lg font-extrabold" style={{ color: "var(--gold-shimmer)" }}>1.200+</span>
+            <span className="text-[10px] sm:text-xs leading-tight" style={{ color: "hsl(145 20% 70%)" }}>personas formadas</span>
+          </div>
+          <div className="flex flex-col items-center text-center border-x" style={{ borderColor: "hsl(145 20% 25% / 0.5)" }}>
+            <span className="text-base sm:text-lg font-extrabold" style={{ color: "var(--gold-shimmer)" }}>★ 4,9/5</span>
+            <span className="text-[10px] sm:text-xs leading-tight" style={{ color: "hsl(145 20% 70%)" }}>valoración promedio</span>
+          </div>
+          <div className="flex flex-col items-center text-center">
+            <span className="text-base sm:text-lg font-extrabold" style={{ color: "var(--gold-shimmer)" }}>✅ Resultados</span>
+            <span className="text-[10px] sm:text-xs leading-tight" style={{ color: "hsl(145 20% 70%)" }}>en 7 días</span>
+          </div>
+        </div>
+
         {/* CTA Button */}
         <div className="space-y-2">
           <a
@@ -109,6 +125,9 @@ const Index = () => {
           </a>
           <p className="text-xs" style={{ color: "hsl(145 15% 50%)" }}>
             (Acceso inmediato tras el pago)
+          </p>
+          <p className="text-xs font-medium" style={{ color: "hsl(145 25% 70%)" }}>
+            🔒 Compra segura en Hotmart · Acceso inmediato
           </p>
         </div>
 
