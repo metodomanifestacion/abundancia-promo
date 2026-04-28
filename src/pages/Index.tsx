@@ -43,7 +43,7 @@ const Index = () => {
           75% { transform: translate(20px, -25px); opacity: 0.8; }
         }
       `}</style>
-      <div className="relative w-full max-w-lg text-center space-y-3 sm:space-y-4">
+      <div className="relative w-full max-w-2xl text-center space-y-3 sm:space-y-4">
         {/* Headline */}
         <h1
           className="text-xl sm:text-2xl md:text-3xl font-extrabold leading-tight tracking-tight flex items-start justify-center gap-2"
@@ -55,14 +55,14 @@ const Index = () => {
 
         {/* Subtitle */}
         <p
-          className="text-sm sm:text-base font-medium max-w-md mx-auto leading-snug"
+          className="text-sm sm:text-base font-medium max-w-2xl mx-auto leading-snug"
           style={{ color: "hsl(145 20% 65%)" }}
         >
           No es que la ley de atracción no funcione. Es que nadie te explicó la parte que más importa.
         </p>
 
         {/* Body */}
-        <div className="space-y-2 max-w-md mx-auto text-left sm:text-center text-xs sm:text-sm leading-relaxed" style={{ color: "hsl(145 18% 72%)" }}>
+        <div className="space-y-2 max-w-2xl mx-auto text-center text-xs sm:text-sm leading-relaxed" style={{ color: "hsl(145 18% 72%)" }}>
           <p>
             <Heart className="inline mr-1 -mt-1" size={14} style={{ color: "var(--gold-shimmer)" }} />
             Sé cómo se siente: visualizas, afirmas, confías... y al abrir la cuenta bancaria, nada cambia. Esa sensación de que algo falla, pero no sabes qué.
