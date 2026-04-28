@@ -1,4 +1,3 @@
-import moneyBg from "@/assets/money-bg.jpg";
 import amseLogo from "@/assets/amse-pro-logo.png";
 import { trackMetaEvent } from "@/lib/metaPixel";
 import { Sparkles, BookOpen, Zap, Lock, Download, Star, Users, TrendingUp, Mail, AlertTriangle, ArrowRight, Heart } from "lucide-react";
@@ -6,35 +5,44 @@ import { Sparkles, BookOpen, Zap, Lock, Download, Star, Users, TrendingUp, Mail,
 const Index = () => {
   return (
     <div
-      className="min-h-screen flex items-center justify-center px-5 py-6 relative"
+      className="min-h-screen flex items-center justify-center px-5 py-6 relative overflow-hidden"
       style={{
-        backgroundImage: `url(${moneyBg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        background:
+          "radial-gradient(ellipse at top, hsl(150 45% 12%) 0%, hsl(150 50% 6%) 60%, hsl(150 55% 4%) 100%)",
       }}
     >
-      {/* Dark overlay for readability */}
-      <div className="absolute inset-0" style={{ background: "hsla(150, 35%, 8%, 0.88)" }} />
-      {/* Subtle gold shimmer particles */}
+      {/* Floating gold particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(12)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute rounded-full animate-pulse"
-            style={{
-              width: `${2 + Math.random() * 3}px`,
-              height: `${2 + Math.random() * 3}px`,
-              background: "var(--gold-shimmer)",
-              top: `${Math.random() * 100}%`,
-              left: `${Math.random() * 100}%`,
-              opacity: 0.3 + Math.random() * 0.4,
-              animationDuration: `${2 + Math.random() * 3}s`,
-              animationDelay: `${Math.random() * 2}s`,
-            }}
-          />
-        ))}
+        {[...Array(40)].map((_, i) => {
+          const size = 2 + Math.random() * 4;
+          const duration = 8 + Math.random() * 12;
+          const delay = Math.random() * 8;
+          return (
+            <div
+              key={i}
+              className="absolute rounded-full"
+              style={{
+                width: `${size}px`,
+                height: `${size}px`,
+                background: "var(--gold-shimmer)",
+                top: `${Math.random() * 100}%`,
+                left: `${Math.random() * 100}%`,
+                opacity: 0.4 + Math.random() * 0.5,
+                boxShadow: `0 0 ${size * 2}px hsl(45 90% 60% / 0.7)`,
+                animation: `float-particle ${duration}s ease-in-out ${delay}s infinite`,
+              }}
+            />
+          );
+        })}
       </div>
-
+      <style>{`
+        @keyframes float-particle {
+          0%, 100% { transform: translate(0, 0); opacity: 0.4; }
+          25% { transform: translate(10px, -20px); opacity: 0.9; }
+          50% { transform: translate(-15px, -40px); opacity: 0.6; }
+          75% { transform: translate(20px, -25px); opacity: 0.8; }
+        }
+      `}</style>
       <div className="relative w-full max-w-lg text-center space-y-5 sm:space-y-6">
         {/* Headline */}
         <h1
