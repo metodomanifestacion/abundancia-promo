@@ -47,7 +47,7 @@ const Index = () => {
           className="text-base sm:text-lg font-medium max-w-md mx-auto leading-relaxed"
           style={{ color: "hsl(145 20% 65%)" }}
         >
-          Descubre las técnicas exactas de Neville Goddard y Joseph Murphy que sí funcionan — y por qué lo que has intentado hasta ahora no estaba completo. 54 páginas. Resultado desde el primer día. Ebook PDF de 54 páginas. Lo descargas en segundos.
+          Descubre las técnicas exactas de Neville Goddard y Joseph Murphy que sí funcionan — y por qué lo que has intentado hasta ahora no estaba completo. Resultado desde el primer día. Ebook PDF de 54 páginas. Lo descargas en segundos.
         </p>
 
         {/* Description - removed as content merged into subtitle */}
