@@ -5,7 +5,7 @@ import { Sparkles, BookOpen, Zap, Lock, Download, Star, Users, TrendingUp, Mail,
 const Index = () => {
   return (
     <div
-      className="min-h-screen flex items-center justify-center px-5 py-6 relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center px-4 py-3 relative overflow-hidden"
       style={{
         background:
           "radial-gradient(ellipse at top, hsl(150 45% 12%) 0%, hsl(150 50% 6%) 60%, hsl(150 55% 4%) 100%)",
