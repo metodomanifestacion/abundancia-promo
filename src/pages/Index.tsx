@@ -1,4 +1,5 @@
 import moneyBg from "@/assets/money-bg.jpg";
+import amseLogo from "@/assets/amse-pro-logo.png";
 import { trackMetaEvent } from "@/lib/metaPixel";
 
 const Index = () => {
