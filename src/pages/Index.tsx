@@ -40,7 +40,7 @@ const Index = () => {
           className="text-2xl sm:text-3xl md:text-4xl font-extrabold leading-tight tracking-tight"
           style={{ color: "hsl(0 0% 95%)" }}
         >
-          ¿Por qué el dinero nunca llega, aunque lo visualizas todos los días?
+          Si visualizas todos los días y el dinero sigue sin aparecer, esto es para ti.
         </h1>
 
         {/* Subtitle */}
@@ -48,17 +48,18 @@ const Index = () => {
           className="text-base sm:text-lg font-medium max-w-md mx-auto leading-relaxed"
           style={{ color: "hsl(145 20% 65%)" }}
         >
-          Descubre las técnicas exactas de Neville Goddard y Joseph Murphy que sí funcionan — y por qué lo que has intentado hasta ahora no estaba completo. Resultado desde el primer día. Ebook PDF de 54 páginas. Lo descargas en segundos.
+          No es que la ley de atracción no funcione. Es que nadie te explicó la parte que más importa.
         </p>
 
-        {/* Description - removed as content merged into subtitle */}
-        {/* Trust */}
-        <p
-          className="text-xs sm:text-sm tracking-wide"
-          style={{ color: "hsl(145 15% 50%)" }}
-        >
-          Acceso inmediato · Lectura rápida · Método sencillo
-        </p>
+        {/* Body */}
+        <div className="space-y-3 max-w-md mx-auto text-left sm:text-center">
+          <p className="text-sm sm:text-base leading-relaxed" style={{ color: "hsl(145 18% 72%)" }}>
+            Sé cómo se siente: visualizas, afirmas, confías... y al abrir la cuenta bancaria, nada cambia. Esa sensación de que algo falla, pero no sabes qué.
+          </p>
+          <p className="text-sm sm:text-base leading-relaxed" style={{ color: "hsl(145 18% 72%)" }}>
+            Este ebook no es más de lo mismo, son <span className="font-semibold" style={{ color: "var(--gold-shimmer)" }}>54 páginas</span> con las técnicas exactas y probadas de varios metafísicos como Neville Goddard, Joseph Murphy, entre otros — incluyendo los pasos que casi nadie enseña y que son precisamente los que hacen que todo funcione. Lo lees hoy, lo aplicas hoy.
+          </p>
+        </div>
 
         {/* Pricing */}
         <div className="flex flex-col items-center gap-2">
@@ -79,22 +80,6 @@ const Index = () => {
             </span>{" "}
             Esta promoción puede desaparecer hoy mismo.
           </p>
-        </div>
-
-        {/* Social proof stats */}
-        <div className="grid grid-cols-3 gap-2 sm:gap-3 py-3 px-2 rounded-xl" style={{ background: "hsla(150, 30%, 12%, 0.6)" }}>
-          <div className="flex flex-col items-center text-center">
-            <span className="text-base sm:text-lg font-extrabold" style={{ color: "var(--gold-shimmer)" }}>1.200+</span>
-            <span className="text-[10px] sm:text-xs leading-tight" style={{ color: "hsl(145 20% 70%)" }}>personas formadas</span>
-          </div>
-          <div className="flex flex-col items-center text-center border-x" style={{ borderColor: "hsl(145 20% 25% / 0.5)" }}>
-            <span className="text-base sm:text-lg font-extrabold" style={{ color: "var(--gold-shimmer)" }}>★ 4,9/5</span>
-            <span className="text-[10px] sm:text-xs leading-tight" style={{ color: "hsl(145 20% 70%)" }}>valoración promedio</span>
-          </div>
-          <div className="flex flex-col items-center text-center">
-            <span className="text-base sm:text-lg font-extrabold" style={{ color: "var(--gold-shimmer)" }}>✅ Resultados</span>
-            <span className="text-[10px] sm:text-xs leading-tight" style={{ color: "hsl(145 20% 70%)" }}>en 7 días</span>
-          </div>
         </div>
 
         {/* CTA Button */}
@@ -121,22 +106,16 @@ const Index = () => {
               e.currentTarget.style.transform = "translateY(0)";
             }}
           >
-            ¡SÍ, QUIERO ACTIVAR MI ABUNDANCIA!
+            → Quiero el método completo por 3,99€
           </a>
-          <p className="text-xs" style={{ color: "hsl(145 15% 50%)" }}>
-            (Acceso inmediato tras el pago)
-          </p>
           <p className="text-xs font-medium" style={{ color: "hsl(145 25% 70%)" }}>
-            🔒 Compra segura en Hotmart · Acceso inmediato
+            Acceso inmediato · PDF descargable · Compra segura en Hotmart
           </p>
         </div>
 
-        {/* Trust */}
-        <p
-          className="text-xs sm:text-sm tracking-wide"
-          style={{ color: "hsl(145 15% 50%)" }}
-        >
-          Acceso inmediato · Lectura rápida · Método sencillo
+        {/* Social proof */}
+        <p className="text-sm font-medium" style={{ color: "hsl(145 22% 75%)" }}>
+          Más de <span style={{ color: "var(--gold-shimmer)" }}>1.200 personas</span> ya lo tienen. Valoración media: <span style={{ color: "var(--gold-shimmer)" }}>4,9/5</span>. Resultados en <span style={{ color: "var(--gold-shimmer)" }}>7 días</span>.
         </p>
 
         {/* Footer with logo and credits */}
